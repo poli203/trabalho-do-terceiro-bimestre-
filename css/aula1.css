@@ -1,0 +1,132 @@
+body
+{
+    background-color: #272744;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header
+{
+    border-style:solid;
+    border-color: #272744;
+    display: flex;
+    padding: 10px 20px 5px; 
+    background-color: #494d7e;
+    height: 20%;
+    border-radius: 30px;
+    display: flex;
+    color: #f2d3ab;    ;
+}
+
+header img
+{
+    height: 200px;
+}
+
+.navegação img
+{
+    height: 50px;
+    padding: 5px 10px;
+}
+
+.navegação
+{
+    position: absolute;
+    align-self: flex-end;
+    right: 20px;
+}
+.fundo
+{
+    background: url("img/fundo.png");
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+}
+.centro
+{
+    background-color: #494d7e;
+    display: block;
+    margin: 0px 200px;
+    padding: 1px 20px;
+}
+.centro h1
+{
+    text-align: center;
+    font-size: 250%;
+    color: #f2d3ab;
+}
+.centro h2
+{
+    text-align: center;
+    font-size: 150%;
+    color: #c69fa5;
+}
+
+.centro hr
+{
+    border-color: #f2d3ab;
+    border-spacing: 200px;
+}
+.layout-1
+{
+    display: flex;
+}
+.col
+{
+    color: #f2d3ab;
+    width: 35%;
+}
+.col-1
+{
+    width: 65%;
+    background-color: #272744;
+}
+.col img
+{
+    height: 25vw;
+    position: absolute;
+}
+.col-2
+{
+    padding: 0px 50px;
+    width: 60%;
+
+}
+.col-2 img
+{
+    height: 25vw;
+    align-self: flex-end;
+    position: absolute;
+}
+.historia
+{
+    background-color: #272744;
+}
+.historia-div
+{
+    display: flex;
+    padding-top: 20px;
+}
+#fim img
+{
+    height: 30vw;
+}
+footer
+{
+    border-style:solid;
+    border-color: #494d7e;
+    display: flex;
+    padding: 10px 20px 5px; 
+    background-color: #272744;
+    height: 20%;
+    border-radius: 30px;
+}
+p
+{
+    text-align: justify;
+    padding: 0px 60px;
+    color: #c69fa5;
+    font-size: 120%;
+}
